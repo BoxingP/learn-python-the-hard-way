@@ -19,7 +19,7 @@ hilarious = False
 # set a string with variable
 joke_evaluation = "Isn't that joke so funny?! %r"
 
-# print the string out with a variable convert from boolean to string
+# print out the string with a variable string contains a printable representation of boolean object
 print joke_evaluation % hilarious
 
 # set two strings
