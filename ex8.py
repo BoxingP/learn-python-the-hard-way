@@ -1,3 +1,4 @@
+# use %r to return a string contains a printalbe representation of an object
 formatter = "%r %r %r %r"
 
 print formatter % (1, 2, 3, 4)
