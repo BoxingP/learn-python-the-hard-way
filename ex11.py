@@ -1,9 +1,11 @@
 print "How old are you?",
-age = raw_input()
+age = int(raw_input('--> '))
 print "How tall are you?",
-height = raw_input()
+height = raw_input('--> ')
 print "How much do you weight?",
-weight = raw_input()
+weight = raw_input('--> ')
+print "Where do you come from?",
+address = raw_input('--> ')
 
-print "So, you're %r old, %r tall and %r heavy." % (
-    age, height, weight)
+print "So, you're %r old, %r tall and %r heavy. And you come from %r." % (
+    age, height, weight, address)
