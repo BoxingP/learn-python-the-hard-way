@@ -1,9 +1,10 @@
 from sys import argv
 
-script, user_name = argv
-prompt = '> '
+script, user_name, age = argv
+prompt = "-> "
 
 print "Hi %s, I'm the %s script." % (user_name, script)
+print "I know you are a %s years old people." % age
 print "I'd like to ask you a few question."
 print "Do you like me %s?" % user_name
 likes = raw_input(prompt)
