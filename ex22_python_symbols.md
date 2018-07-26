@@ -1,6 +1,6 @@
 Symbol | Name | What it does
 --- | --- | ---
- | Whitespace | Used as a word divider in scripts.[1]<br> Leading whitespace (spaces and tabs) at the beginning of a logical line is used to compute the indentation level of the line, which in turn is used to determine the grouping of statements.[2]
+&nbsp; | Whitespace | Used as a word divider in scripts.[1]<br> Leading whitespace (spaces and tabs) at the beginning of a logical line is used to compute the indentation level of the line, which in turn is used to determine the grouping of statements.[2]
 ' | Single quote | String literals can be enclosed in matching single quotes. They can also be enclosed in matching groups of three single quotes (these are generally referred to as triple-quoted strings).[3]
 " | Double quote | String literals can be enclosed in matching double quotes. They can also be enclosed in matching groups of three double quotes (these are generally referred to as triple-quoted strings).[3]
 ! | Exclamation mark | !=, not equal. This can also be written <>, but this is an obsolete usage kept for backwards compatibility only. New code should always use !=.[4]
