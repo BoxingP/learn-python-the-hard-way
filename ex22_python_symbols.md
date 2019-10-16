@@ -5,18 +5,18 @@ Symbol | Name | What it does
 " | Double quote | String literals can be enclosed in matching double quotes. They can also be enclosed in matching groups of three double quotes (these are generally referred to as triple-quoted strings).[3]
 ! | Exclamation mark | !=, not equal. This can also be written <>, but this is an obsolete usage kept for backwards compatibility only. New code should always use !=.[4]
 . | Dot |
-# | Octothorpe, pound character, hash character | A comment starts with a hash character that is not part of a string literal, and ends at the end of the physical line.[5]
+\# | Octothorpe, pound character, hash character | A comment starts with a hash character that is not part of a string literal, and ends at the end of the physical line.[5]
 , | Comma |
-: | Colon | Other languages use { } or other method to indicate/use a code block. Python uses indentation after colons to indicate/use a code block.[6]
-+ | Plus | x + y, sum of x and y[7]<br>Python doesn't support ++[8]
-- | Minus | x - y,	difference of x and y[7]
-/ | Slash | x / y, quotient of x and y[7]
-* | Asterisk | x * y,	product of x and y[7]
+: | Colon | Other languages use \{ \} or other method to indicate/use a code block. Python uses indentation after colons to indicate/use a code block.[6]
+\+ | Plus | x + y, sum of x and y[7]<br>Python doesn't support ++[8]
+\- | Minus | x - y,	difference of x and y[7]
+\/ | Slash | x / y, quotient of x and y[7]
+\* | Asterisk | x * y,	product of x and y[7]
 % | Percent | The % does two things, depending on its arguments. It acts as the modulo operator, meaning when its arguments are numbers, it divides the first by the second and returns the remainder.If the first argument is a string, it formats it using the second argument.[9]
 < | Less-than |
-> | Greater-than |
+\> | Greater-than |
 <= | Less-than-equal |
->= | Greater-than-equal |
+\>= | Greater-than-equal |
 ? | Question mark | It's not used in Python. Its occurrence outside string literals and comments is an unconditional error.[10]
 = | Equal |
 _ | Underscore | While the underscore is used for just snake-case variables and functions in most languages, but it has special meanings in Python.<br>There are 5 cases for using the underscore in Python:<br>1. For storing the value of last expression in interpreter.<br>2. For ignoring the specific values.<br>3. To give special meanings and functions to name of variables or functions.<br>4. To use as ‘Internationalization(i18n)’ or ‘Localization(l10n)’ functions.<br>5. To separate the digits of number literal value.[11]
