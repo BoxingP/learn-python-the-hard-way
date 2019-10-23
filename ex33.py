@@ -1,13 +1,9 @@
 def add_number_to_list(limit, increment):
-    i = 0
+    scope = range(0, limit, increment)
     numbers = []
-    while i < limit:
-        print "At the top i is %d" % i
+    for i in scope:
+        print "Add %d to list" % i
         numbers.append(i)
-
-        i = i + increment
-        print "Numbers now: ", numbers
-        print "At the bottom i is %d" % i
     return numbers
 
 print "Input the numbers limit which numbers are less than it"
